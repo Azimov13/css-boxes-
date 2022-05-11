@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main-con{
+   width: 100%;
+   margin-top: 35px;
+   
+}
+.con-1{
+   display: flex;
+   align-items:center;
+   justify-content:space-around;
+   text-align: center;
+   
+
+}
+.con1{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-1 .con1:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.con2{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-1 .con2:hover{
+    transform: scaleY(1.5);
+    transition: 0.5s;
+}
+.con3{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-1 .con3:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.con4{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+   
+}
+.con-1 .con4:hover{
+    transform: translateX(50px);
+    transition: all 1s;
+}
+
+.con-2{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align: center;
+    margin-top: 45px;
+}
+.con5{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-2 .con5:hover{
+     transform:translateY(45px);
+    transition: all 1s;
+}
+.con6{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-2 .con6:hover{
+   transform:translate(20px, 20px);
+   transition: all 1s;
+}
+.con7{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-2 .con7:hover{
+    transform:matrix(1.2,0,0.5,1.2,50,0);
+    transition: all 0.3s;
+}
+.con8{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-2 .con8:hover{
+    transform:rotate(180deg);
+    transition: all 0.9s;
+ }
+.con-3{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align: center;
+    margin-top: 45px;
+}
+.con9{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-3 .con9:hover{
+    transform:skew(-45deg);
+    transition: all 0.9s;
+}
+.con10{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-3 .con10:hover{
+    transform:skewX(30deg);
+    transition: all 0.9s;
+}
+.con11{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-3 .con11:hover{
+    transform:skewY(30deg);
+    transition: all 0.9s;
+}
+.con12{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-3 .con12:hover{
+    transform:matrix(0.7,0.7,-0.7,0.7,10,10);
+    transition: all 0.9s;
+}
+.con-4{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.con13{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-4 .con13:hover{
+    transform:translate3d(10px,-80px,-50px);
+    transition: all 1s;
+}
+.con14{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-4 .con14:hover{
+    transform:rotateY(-80deg);
+    transition: all 1.2s;
+}
+.con15{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+}
+.con-4 .con15:hover{
+    transform:rotateX( 90deg);
+    transition: all 1.2s;
+}
+
+.con16{
+    width: 200px;
+    height: 150px;
+    background:red;
+    border: 1px solid black;
+
+}
+.con-4 .con16:hover{
+    transform:translateZ(40px) rotateX(40deg) translate3d(30px,20px,65px) ;
+    transition: all 1.2s;
+}
